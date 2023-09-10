@@ -1,0 +1,57 @@
+{
+  "name": "minimalistic-blockchain-in-ts",
+  "version": "1.0.0",
+  "description": "minimalistic blockchain in TS",
+  "main": "index.ts",
+  "engines": {
+    "node": "18.14.2",
+    "npm": "9.5.0"
+  },
+  "scripts": {
+    "start": "node dist/index.js",
+    "start-dev": "ts-node src/index.ts",
+    "dev": "nodemon --watch src --ext ts --exec \"npm run start-dev\"",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "format": "prettier --write .",
+    "typecheck": "tsc --noEmit",
+    "prebuild": "npm run lint",
+    "build": "tsc",
+    "clean": "rimraf dist",
+    "clean-build": "npm run clean && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aadilmughal786/minimalistic-blockchain-in-ts.git"
+  },
+  "keywords": [
+    "blockchain",
+    "typescript",
+    "decentralization",
+    "transactions",
+    "blocks",
+    "cryptography",
+    "minimalism",
+    "validation"
+  ],
+  "author": "https://github.com/aadilmughal786",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aadilmughal786/minimalistic-blockchain-in-ts/issues"
+  },
+  "homepage": "https://github.com/aadilmughal786/minimalistic-blockchain-in-ts#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3",
+    "rimraf": "^5.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}

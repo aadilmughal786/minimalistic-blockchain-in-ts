@@ -1,0 +1,49 @@
+# Node.js
+node_modules/
+
+# Output files
+dist/
+*.log
+
+# Environment files
+.env
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Dependency directories
+.pnpm-store/
+.npm/
+yarn-error.log
+yarn.lock
+.pnp.*
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Jest coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Compiled binary addons
+/build/
+*.suo
+*.user
+*.sln
+
+# IDE-specific files
+.idea/

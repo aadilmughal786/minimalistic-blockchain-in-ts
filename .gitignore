@@ -47,3 +47,6 @@ coverage/
 
 # IDE-specific files
 .idea/
+
+# My todo
+todo.txt

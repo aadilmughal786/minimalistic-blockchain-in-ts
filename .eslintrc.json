@@ -10,6 +10,6 @@
   ],
   "plugins": ["@typescript-eslint", "prettier"],
   "rules": {
-    // Add your custom ESLint rules here if needed
+    "@typescript-eslint/no-explicit-any": "off"
   }
 }
